@@ -1,0 +1,28 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+h1{
+    color: red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2{
+    color: #34495e;
+    margin-top: 40px;
+}
+ol{
+    list-style: decimal inside;
+}
+ul{
+    list-style: square inside;
+}
+p{
+    border: 1px solid #dcdcdc;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
