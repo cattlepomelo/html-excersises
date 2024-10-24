@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontakta forma.</title>
+    <link href="style.css" rel=stylesheet>
+  </head>
+  <body>
+    <h1>Sazinies ar mums.</h1>
+
+    <div>
+    <form action="\">
+      <input type="text" size="40" name="Nameinput" required/>
+      <label for="Nameinput"><strong>*</strong>Vārds Uzvārds</label>
+    </form>
+    <br>
+    <form action="\">
+      <input type="text" size="40" name="emailinput" required/>
+      <label for="emailinput"><strong>*</strong>Epasts</label>
+    </form>
+    </div>
+
+    <div>
+        <input type="radio" size="40" name="izvēle" value="Piedavajumi" />
+      <label for="Piedavājumi">Piedavājumi.</label></br>
+      <input
+        type="radio"
+        size="40"
+        name="izvēle"
+        value="Jautajumi"
+      />
+      <label for="Jautajumi">Vispārīgie jautājumi.</label></br></br>
+    </div>
+
+    <div>
+        <input type="checkbox" size="40" name="checkbox" value="check">
+    <label for="checkbox">Piekritu saņemt jaunumus.</label>
+    </div>
+
+    <div>
+        <h4>Ziņojums</h4>
+        <textarea id="text1" name="text1" rows="7" cols="50"></textarea>
+    </div>
+
+    <div>
+        <button type="submit" name="iesniegt">Iesniegt</button>
+    </div>
+
+  </body>
+</html>
